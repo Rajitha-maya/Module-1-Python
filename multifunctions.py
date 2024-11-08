@@ -1,25 +1,24 @@
 class multifunction():
-   
     def SubfieldsInAI():
         list=['Sub fields in AI are:','Machine Learning','Neural Networks','Vision','Robotics','Speech Processing','Natural Language Processing']
         for fields in list:
             print(fields)
+            
     num=int(input("Enter the Number:"))
-    
     def oddeven(num):
         if num%2==1:
             print(num,"is odd number")
         elif num%2==0:
             print(num,"is even number")
             
-        def marriage(gender,age):
+    def marriage():
+        gender=input("Your gender:")
+        age=int(input("your age:"))
         if(gender=="male" and age<21)or(gender=="female" and age<18):
             print("Not eligible")
         else:
             print("Eligible")
-    gender=input("Your gender:")
-    age=int(input("your age:"))
-
+    
 
     def subjects():
         Subject1=int(input("Subject 1:"))
